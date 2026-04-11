@@ -211,7 +211,7 @@ input, select, textarea { font: inherit; }
 }
 
 .logo-img {
-  height: 52px;
+  height: 60px;
   width: auto;
   object-fit: contain;
   border-radius: 50%;
@@ -995,7 +995,7 @@ input, select, textarea { font: inherit; }
 }
 
 .footer-logo .logo-img {
-  height: 48px;
+  height: 56px;
 }
 
 .footer-tagline {
@@ -1053,6 +1053,32 @@ input, select, textarea { font: inherit; }
   color: var(--color-accent-light);
 }
 
+.footer-director {
+  padding: 32px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  text-align: center;
+}
+
+.director-info h4 {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--color-white);
+  margin-bottom: 4px;
+}
+
+.director-role {
+  font-size: 0.9rem;
+  color: var(--color-accent-light);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.director-credential {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.6);
+}
+
 .footer-bottom {
   padding: 28px 0;
   font-size: 0.8rem;
@@ -1085,6 +1111,7 @@ input, select, textarea { font: inherit; }
 .services-grid .reveal:nth-child(5)  { transition-delay: 0.28s; }
 .services-grid .reveal:nth-child(6)  { transition-delay: 0.35s; }
 .services-grid .reveal:nth-child(7)  { transition-delay: 0.42s; }
+.services-grid .reveal:nth-child(8)  { transition-delay: 0.49s; }
 
 .testimonials-grid .reveal:nth-child(2) { transition-delay: 0.1s; }
 .testimonials-grid .reveal:nth-child(3) { transition-delay: 0.2s; }

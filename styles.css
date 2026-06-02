@@ -1185,6 +1185,10 @@ input, select, textarea { font: inherit; }
     display: none;
   }
 
+  .header-inner {
+    justify-content: space-between;
+  }
+
   .mobile-toggle {
     display: flex;
     margin-left: auto;
